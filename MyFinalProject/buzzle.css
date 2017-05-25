@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+table{
+    margin: 0px auto ;
+    text-align: center;
+    border-spacing: 0 ; 
+    font-family: Electrolize;    
+    font-weight: bold;
+}
+td{  
+    line-height: 50px;    
+}
+
+#pices ,#buzzle,#or{
+    position: relative ;
+}
+
+#pices{
+    background: burlywood;
+    border: 1px solid gray;
+}
+.pices {
+    position: absolute;   
+    border: 2px solid white;
+}
+.buzzle{
+    background: gray ;
+    position: absolute;
+}
+
+#solve {
+   background: #333 ;   
+   opacity: 0.5;     
+   text-align: center;    
+   margin-top: 10px;
+   border-radius: 10px;
+   border: 2px solid black;   
+}
+
+
+#con ,#finished{
+    opacity: 0;
+    background: #BBB;
+    text-align: center;
+    position: absolute ;    
+    font-family: Electrolize;    
+    font-weight: bold;
+    z-index: -1;
+    border-radius: 15px;
+    padding: auto auto;
+   
+}
